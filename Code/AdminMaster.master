@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="form" style="background-color: #4CAF50">
+
+        <asp:Panel ID="Panel1" runat="server" BackColor="#4CAF50">
+
+            <asp:Button ID="Button_Add" runat="server" Text="Add Item" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_Add_Click"/>
+            <asp:Button ID="Button_Update" runat="server" Text="Update Item" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_Update_Click"/>
+            <asp:Button ID="Button_Delete" runat="server" Text="Delete Item" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_Delete_Click"/>
+            <asp:Button ID="Button_Logout" runat="server" Text="Log Out" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_Logout_Click"/>
+         
+        </asp:Panel>
+            <asp:Label ID="Label1" runat="server" Text="" ForeColor="#4CAF50"></asp:Label>
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+            </div>
+    </form>
+</body>
+</html>

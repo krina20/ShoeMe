@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<ds_order>
+  <orderdetails>
+    <orderid>Order19213331102018bvbxg</orderid>
+    <sno>1</sno>
+    <name>Truffle Collection</name>
+    <price>1949</price>
+    <quantity>1</quantity>
+    <dateoforder>31/10/2018</dateoforder>
+  </orderdetails>
+  <orderdetails>
+    <orderid>Order19224931102018b2xo1</orderid>
+    <sno>1</sno>
+    <name>Truffle Collection</name>
+    <price>1949</price>
+    <quantity>1</quantity>
+    <dateoforder>31/10/2018</dateoforder>
+  </orderdetails>
+  <orderdetails>
+    <orderid>Order1924403110201878f2r</orderid>
+    <sno>1</sno>
+    <name>Truffle Collection</name>
+    <price>1949</price>
+    <quantity>1</quantity>
+    <dateoforder>31/10/2018</dateoforder>
+  </orderdetails>
+  <orderdetails>
+    <orderid>Order3273131102018dr2mb</orderid>
+    <sno>1</sno>
+    <name>Truffle Collection</name>
+    <price>1949</price>
+    <quantity>2</quantity>
+    <dateoforder>31/10/2018</dateoforder>
+  </orderdetails>
+</ds_order>

@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CustomerMaster.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div class="form" style="background-color: #4CAF50">
+
+        <asp:Panel ID="Panel1" runat="server" BackColor="#4CAF50">
+
+            <asp:Button ID="Button_home" runat="server" Text="HOME" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_home_Click"/>
+            <asp:Button ID="Button_products" runat="server" Text="PRODUCT" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_products_Click"/>
+            <asp:Button ID="Button_feedback" runat="server" Text="FEEDBACK" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_feedback_Click"/>
+            <asp:Button ID="Button_signup" runat="server" Text="SIGNUP" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_signup_Click"/>
+            <asp:Button ID="Button_logput" runat="server" Text="Log Out" style="border-radius:10px;" Font-Bold="true" BackColor="#4CAF50" ForeColor="#FFFFFF" OnClick="Button_Logout_Click"/>
+         
+        </asp:Panel>
+            <asp:Label ID="lblans" runat="server" ForeColor="#FFFFFFF"></asp:Label>      
+        <div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+     </div>
+  </div>
+    </form>
+</body>
+</html>
